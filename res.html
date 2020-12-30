@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+	$(document).ready(function() {
+		$("li").click(function() {
+			$(this).children("ul").toggle();
+		});
+	});
+</script>
+</head>
+<body>
+	<div id = "head">
+		<table class = "center">
+            <tr>
+                <td><img src = "icon1.png" height = 75px></td>
+                <td>
+		          <h1>Vanessa</h1>
+                  <h2>Colihan</h2>
+                </td>
+            </tr>
+        </table>
+        <div id = "byline">
+            An artist with a passion for technology
+        </div>
+		<div id = "links">
+			<a href = "index.html">About</a>
+			<span id = "selected">Resume</span>
+            <a href = "contact.html">Contact</a>
+		</div>
+	</div>
+
+	<p>
+	<div id = "res">
+		<h3>Professional Summary</h3>
+		Recently graduated computer engineer with a background in art looking to apply computer knowledge in a creative way. Special interests in computer vision and embedded systems. 
+		<h3>Education</h3>
+		University of Pittsburgh — Pittsburgh, PA <span class = "grad">Graduated Cum Laude: April 2019</span><br>
+		Bachelor of Science in Computer Engineering <span class = "grad">GPA: 3.433</span> 
+		<ul>
+			<li>Minor in Studio Arts</li>
+			<li>Certificate in American Sign Language</li>
+			<li>OCC Honorary Society</li>
+		</ul>
+		Global Experience 
+		<ul>
+			<li>Smart Environments and Smart Vehicles, Munich Summer 2018</li>
+		</ul>
+		<h3>Work Experience</h3>
+		<ul> 
+			<li>Leader Team SCA Member in Mammoth Cave National Park <span class = "date">October 2019 – November 2019</span></li>
+			<li>Roving Corps SCA/Americorps Team Member in Alaska <span class = "date">May 2019 – September 2019</span></li>
+			
+			<li class = "hasmore">CS Teaching Assistant <span class = "date">September 2018 – April 2019</span>
+
+				<ul class = "readmore"> 
+					<li>Data Structures, taught in Java</li>
+					<li>Systems Software, taught in C</li>
+					<li>Responsible for weekly recitation and office hours</li>
+				</ul>
+
+			</li>
+			<li class = "hasmore">Application Programmer <span class = "date">March 2018 – April 2019</span>
+
+				<ul class = "readmore"> 
+					<li>“Maintain/develop software for research in digital humanities for HPS department”</li>
+					<li>Created Python-powered Twitterbot application, managed AWS-backed resources</li>
+				</ul>
+
+			</li>
+			<li class = "hasmore">NessMade <span class = "date">June 2017 - Present</span>
+			
+				<ul class = "readmore">  
+			 		<li>Self-established online business, selling handmade goods and accessories through Etsy</li>
+			 	</ul> 
+
+		 	</li>
+		 </ul>
+		<h3>Projects</h3>
+		<ul>
+			<div class = "project">
+                <li>Flora + Fauna <span class = "date">May 2020 – Present</span></li>
+                <ul>
+                    <li>Developing a side-scrolling story-driven game in C#/Unity with a partner (collaborating using Scrum and Git)</li>
+                </ul>
+            </div>
+            <div class = "project">
+                <li>Spotify Starter <span class = "date">April 2020 – June 2020</span></li>
+                <ul>
+                    <li>Created Python <a href = "https://github.com/colihanvm/spotify-starter">scripts</a> to programmatically create new playlists on Spotify, using Spotipy library</li>
+                </ul>
+            </div>
+            <div class = "project">
+                <li>Piano Tutor <span class = "date">January – April 2019</span></li>
+                <ul>
+                    <li> Integrated <a href = "https://github.com/colihanvm/notes">CV algorithm</a> into piano teaching device on multidiscipline senior design team </li>
+                    <li>Algorithm, developed in Matlab, extracts music notes off of music sheet images</li>
+                </ul>
+            </div>
+            <div class = "project">
+                <li>FallSafe <span class = "date">February – March 2019</li>
+                <ul>
+                    <li>Finalist for FallSafe at <a href = "https://www.innovation.pitt.edu/events-competitions/randall-family-big-idea-competition/">Randall Family Big Idea Competition</a> </li>
+                    <li>Improved upon 'She Alerts' concept for university-wide business competition</li>
+                </ul>
+            </div>
+            <div class = "project">
+                <li>She Alerts <span class = "date">January 2019</li>
+                <ul>
+                    <li>Won ‘Best Demo’ for <a href = "https://devpost.com/software/sheinnovates2019">She Alerts prototype</a> at <a href = "http://sheinnovates.us/">She Innovates</a></li>
+                    <li>Created a wearable device to alert set contacts if the wearer has a sudden fall</li>
+                    <li>Built with Intel Galileo, tilt sensor, heartrate monitor, and lots of duct tape</li>
+                </ul>
+            </div>
+            <div class = "project">
+                <li>Europa <span class = "date">September 2018 – December 2018</li>
+                <ul>
+                    <li>Designed C++ AI as subteam lead in Computer Game Design/Implementation</li>
+                    <li>Built a <a href = "https://github.com/colihanvm/europa">space exploration game</a>, including the engine, on a 10 person team, in C++ with SDL</li>
+                    <li>AI controls 'ooze' enemies that genetically improve over time</li>
+                </ul>
+            </div>
+			<li>Designed and maintained website for She Innovates <span class = "date">January 2018</span></li>
+			<li>Built <a href = "https://devpost.com/software/foodiebot">Facebook messenger chat bot</a> at SteelHacks <span class = "date">February 2017</span></li>
+			<li>Published <a href = "https://devpost.com/software/climate-51tycr">Google Chrome weather extension</a> at She Innovates <span class = "date">January 2017</span></li>
+			<li>Created integrated interactive Drawing Studio 2 project powered by Arduino <span class = "date">December 2016</span></li>
+		</ul> 
+		<h3>Skills</h3> 
+		<ul>
+			<li>Proficient in Java, Python, and Matlab</li>
+			<li>Intermediate knowledge of C</li>
+			<li>Familiar with HTML5, CSS3, and JavaScript</li>
+			<li>Experience with Android app development</li>
+			<li>Experience with C++ and MIPS</li>
+			<li>Experience with VHDL and FPGAs</li>
+			<li>Experience soldering and designing PCBs</li>
+			<li>Wilderness First Aid certified</li>
+		</ul>
+		<h3>Relevant Coursework</h3>
+		<ul>
+			<li>Machine Learning, Computer Vision, Algorithms, Data Structures, Formal Methods, Software Engineering</li>
+			<li>Operating Systems, Systems Programming, Computer Organization and Architecture, Digital Design Lab</li>
+		</ul>
+		<h3>Extracurricular Activities</h3>
+		<ul>
+			<li class = "hasmore">Pitt Outdoors Club
+			
+				<ul class = "readmore"> 
+					<li>Board position as Gear Master</li>
+				</ul>
+			</li>
+			<li>Engineers for a Sustainable World</li>
+			<li>Robotics and Automation Society</li>
+			<li>Women in Computer Science Club</li>
+		</ul>
+	</div>
+
+	<div id = "media">
+		<a href = "https://github.com/colihanvm"><img src = "githublogo.png" height = 25px></a>
+		<a href = "https://linkedin.com/in/vanessa-colihan"><img src = "linkedinlogo.png" height = 25px></a>
+		<a href = "https://www.etsy.com/shop/NessMade"><img src = "etsylogo.png" height = 25px></a>
+		<br>Vanessa Colihan 2020
+	</div>
+
+</body>
+</html>
